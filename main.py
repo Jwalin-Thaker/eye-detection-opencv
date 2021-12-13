@@ -1,5 +1,16 @@
+__author__ = "Jwalin Thaker"
+__copyright__ = "Copyright 2021, The AAI 551 Project"
+__credits__ = ["Jwalin Thaker", "Mukund Iyengar",
+               "Adrian Rosenbrock"]
+__version__ = "1.0.0"
+__maintainer__ = "Jwalin Thaker"
+__email__ = "jwalinthaker@gmail.com | jthaker1@stevens.edu"
+__status__ = "Production"
+
+# packages to import
 import cv2
 
+# load pre-trained classifiers
 face_cascade = cv2.CascadeClassifier(
     cv2.data.haarcascades + 'haarcascade_frontalface_default.xml')
 eye_cascade = cv2.CascadeClassifier(
