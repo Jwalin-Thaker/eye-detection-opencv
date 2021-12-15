@@ -4,7 +4,7 @@
 - This project is an implementation of opencv + python in an attempt to learn how face and eye detection work
 - I have used pre-trained classifiers (previously run on thousands of images) in the form of [xml](https://github.com/opencv/opencv/tree/master/data/haarcascades) files (which come bundled with [cv2](https://pypi.org/project/opencv-python) package) to capture facial features and then track them
 - Applied geomterical analysis to detect closing of eye with area calculation and distance from facial ends
-- Check out the functional demo at <yt_link>
+- Check out the functional demo at https://www.youtube.com/watch?v=EpnMyfZQEjE
 
 **Version config:**
 1. Python - `3.7.9`
